@@ -1,0 +1,9 @@
+GEM
+  specs:
+    rubysdl (2.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rubysdl
