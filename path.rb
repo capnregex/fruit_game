@@ -34,5 +34,10 @@ class Path
       end
     end
   end
+  def draw screen, color
+    each_line do |x1, y1, x2, y2|
+      screen.draw_line x1, y1, x2, y2, color
+    end
+  end
 end
 
